@@ -6,7 +6,7 @@ Este archivo lista todos los datos de la tabla, pero en un ciclo usando un curso
 <?php
 
 include_once "base_de_datos.php";
-$consulta = "select id, nombre, edad from mascotas";
+$consulta = "select id, nombre, edad from mascota";
 # Preparar sentencia e indicar que vamos a usar un cursor
 $sentencia = $base_de_datos->prepare($consulta, [
     PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL,

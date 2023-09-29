@@ -12,7 +12,7 @@ $id = $_POST["id"];
 $nombre = $_POST["nombre"];
 $edad = $_POST["edad"];
 
-$sentencia = $base_de_datos->prepare("UPDATE mascotas SET nombre = ?, edad = ? WHERE id = ?;");
+$sentencia = $base_de_datos->prepare("UPDATE mascota SET nombre = ?, edad = ? WHERE id = ?;");
 $resultado = $sentencia->execute([$nombre, $edad, $id]);
 
 if ($resultado === true) {
