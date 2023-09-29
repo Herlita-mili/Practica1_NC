@@ -1,4 +1,5 @@
-<?php?>
+<?php
+?>
 <?php include_once "encabezado.php" ?>
 <div class="row">
     <div class="col-12">
