@@ -34,7 +34,7 @@ if (!$mascota) {
 				<label for="edad">Edad</label>
 				<input value="<?php echo $mascota->edad; ?>" required name="edad" type="number" id="edad" placeholder="Edad de mascota" class="form-control">
 			</div>
-			<button type="submit" class="btn btn-success">Guardar</button>
+			<button type="submit" class="btn btn-primary">Guardar</button>
 			<a href="./listar.php" class="btn btn-warning">Volver</a>
 		</form>
 	</div>
