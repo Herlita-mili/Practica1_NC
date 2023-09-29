@@ -15,7 +15,7 @@
 
 <body>
     <!-- Definición del menú -->
-    <nav navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top>
         <a class="navbar-brand" target="_blank" href="https://tecsup.instructure.com/courses/25788">
         PostgreSQL-PHP
         </a>
